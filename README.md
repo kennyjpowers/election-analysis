@@ -1,21 +1,34 @@
 # Election Analysis
 
-## Project Overview
+## Election Audit Overview
 A Colorado Board of Elections employee has givine you the following tasks to complete the election audit of a recent local congressional election.
 
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on populate vote.
+1. The voter turnout for each county
+2. The percentage of votes from each county out of the total count
+3. The county with the highest turnout
+4. Calculate the total number of votes cast.
+5. Get a complete list of candidates who received votes.
+6. Calculate the total number of votes each candidate received.
+7. Calculate the percentage of votes each candidate won.
+8. Determine the winner of the election based on populate vote.
 
 ## Resources
 - Date Source: election_results.csv
 - Software: Python 3.7.2, Visual Studio Code 1.52.1
 
-## Summary
-The analysis of the election shows that:
+## Election Audit Results
+The analysis of the election audit shows that:
 - There were 369,711 votes cast in the election
+- The counties were:
+  - Jefferson
+  - Denver
+  - Arapahoe
+- The county results were:
+  - Jefferson county turnout was 10.5% of the total turnout with 38,855 votes cast
+  - Denver county turnout was 82.8% of the total turnout with 306,055 votes cast
+  - Arapahoe county turnout was 6.7% of the total turnout with 24,801 votes cast
+- The county with the largest turnout was:
+  - Denver county, which had 82.8% of the total turnout with 306,055 votes cast
 - The candidates were:
   - Charles Casper Stockham
   - Diana DeGette
@@ -27,6 +40,6 @@ The analysis of the election shows that:
 - The winner of the election was:
   - Diana DeGette, who received 73.8% of the vote with 272,892 votes
 
-## Challenge Overview
+![Election Audit Results](analysis/election_analysis.txt)
 
-## Challenge Summary
+## Election Audit Summary
