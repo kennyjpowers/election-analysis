@@ -43,3 +43,27 @@ The analysis of the election audit shows that:
 ![Election Audit Results](Resources/election_results.png)
 
 ## Election Audit Summary
+The script can be utiltized for any election with some minor modifications.
+
+Possible extensions:
+
+1. Prompt the user for the name of the data file at the top of the script:
+```
+# get the filename from the user
+filename = str(input("What is the name of the data file in the Resources directory you want to analyze?"))
+
+# use the user input to generate the path to the file
+file_to_load = os.path.join("Resources", filename)
+```
+
+2. Change the name of the output file to include the name of the input file so you can run the script multiple times without overwriting the past analysis:
+
+```
+# get the input filename without the .csv extension
+output_filename = os.path.splitext(filename)[0]
+
+# name the analysis file with the input filename as a prefix
+file_to_save = os.path.join("analysis", output_filename + "_analysis.txt")
+```
+
+3. Alternatively, instead of prompting the user for the filename, you could put multiple files data files in the Resources folder, then have the script iterate over all the .csv files and analyze them all. (Note: you would need to do something similar to #2 as well so you get all of the output data)
