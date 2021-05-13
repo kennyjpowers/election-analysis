@@ -68,4 +68,4 @@ output_filename = os.path.splitext(filename)[0]
 file_to_save = os.path.join("analysis", output_filename + "_analysis.txt")
 ```
 
-3. Alternatively, instead of prompting the user for the filename, you could put multiple files data files in the Resources folder, then have the script iterate over all the .csv files and analyze them. (Note: you would need to do something similar to #2 as well so you get all of the output data)
+3. Alternatively, instead of prompting the user for the filename, you could put multiple data files in the Resources folder, then have the script iterate over all the .csv files and analyze them. (Note: you would need to do something similar to #2 as well so you get all of the output data)
