@@ -43,9 +43,11 @@ The analysis of the election audit shows that:
 ![Election Audit Results](Resources/election_results.png)
 
 ## Election Audit Summary
-The script can be utiltized for any election with some minor modifications.
+The script can be utiltized for any election as is if you put the data in Resources/election_results.csv.
 
-Possible extensions:
+There are some improvements that could be made to the script to be more useable.
+
+Possible modifications:
 
 1. Prompt the user for the name of the data file at the top of the script:
 ```
